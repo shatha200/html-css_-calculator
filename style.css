@@ -1,0 +1,96 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*{
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+body{
+   align-items: center; 
+   background-color:lightslategray;
+   display: flex;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-display: swap;
+   height: inherit;
+   justify-content: center;
+
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter:blur(5.5px) ;
+    background:rgba(255,255,255,0.75);
+    border: 10px solid rgba(255,255,255,0.05) ;
+    border-radius: 15px;
+    box-shadow:0 4px 30px rgba(35,35,35,0.2) ;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0,3);
+    border: 1px solid rgba(255,255,255,0.35);
+    flex-basis: 400px;
+    height: 600px;
+    padding: 20px 35px;
+}
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background:rgba(255,255,255,0,75) ;
+    border: 1px solid rgba(255,255,255,0,02);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1) ;
+    color: black;
+    font-size: 35px;
+    overflow: auto;
+    padding: 10px;
+    text-align: right;
+    width: 300px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% ;
+}
+
+.cal-btn,.double,.triple{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background:rgba(255,255,255,0,75);
+border: 1px solid rgba(255,255,255,0.01) ;
+border-radius: 15px;
+box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+color: #000;
+flex-basis: 20%;
+font-family: inherit;
+font-size: 24px;
+height: 65px
+}
+.cal-btn:last-child{
+    backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background:rgba(255,255,255,0,75);
+border: 1px solid rgba(255,255,255,0.01) ;
+border-radius: 15px;
+box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+color: #ffffff;
+background:rgb(221, 133, 180) ;
+}
+.cal-btn:last-child:hover{
+    background-color:inherit ;
+    color: inherit;
+}
+.cal-btn:hover{
+    background-color: inherit; 
+}
+.cal-btn:active{
+    background-color: bisque;
+}
+.double{
+    flex-basis: 50%;
+}
+#eq{
+    flex-basis: 75%;
+}
